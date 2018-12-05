@@ -12,7 +12,7 @@ Generar el DIST
 tsc -w
 ```
 
-levantar servidor, cualquirea de estos dos comandos
+levantar servidor, cualquiera de estos dos comandos
 
 ```
 nodemon dist/
