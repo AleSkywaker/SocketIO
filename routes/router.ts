@@ -14,7 +14,7 @@ router.post("/mensajes/:id", (req: Request, res: Response) => {
   var id = req.params.id;
   res.json({
     ok: true,
-    mensaje: `POST - LISTO ${nombre} ${apellido} ${id}`
+    mensaje: `POST - LISTO ${nombre} ${apellido} ${id} NUEVO`
   });
 });
 export default router;

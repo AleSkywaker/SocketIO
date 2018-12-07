@@ -12,6 +12,7 @@ server.app.use(bodyParser.json());
 //Cors
 server.app.use(cors({ origin: true, credentials: true }));
 
+//Rutas de servicios
 server.app.use("/", router);
 
 server.start(() => {
